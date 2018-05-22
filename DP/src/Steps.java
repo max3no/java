@@ -26,9 +26,10 @@ public class Steps {
 			memo[i] = -1;
 		}
 		
-//		int ans = getMinStepsUsingMemoization(n, memo);
-		int ans = getMinStepsUsingDP(n);
-		System.out.println(ans);
+		int ans1 = getMinStepsUsingMemoization(n, memo);
+		int ans2 = getMinStepsUsingDP(n);
+		System.out.println(ans1);
+		System.out.println(ans2);
 		sc.close();
 		
 	}
